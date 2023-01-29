@@ -111,11 +111,19 @@ list-style: none;
     border-radius: 50%;
     transition: .3s all ease;
 }
-.icon-play:before {
+.icon-play{
+    position: absolute;
+    top: 35%;
+    left: 37%;
+    color: #fff;
+
+}
+.icon-play::before {
   
     content: "\f144";
     box-sizing: border-box;
 }
+/* \f144 */
 .carousel-indicators
 {
 bottom: -25px;
