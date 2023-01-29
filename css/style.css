@@ -1,0 +1,110 @@
+body {
+    font-family: 'Mulish', sans-serif;
+    line-height: 1.6;
+    font-size: 16px;
+    color: #333;
+}
+/* Start about section styling */
+.about{
+margin: 50px 0;
+}
+.content h2{
+    color: #0FB78D;
+    font-size: 32px;
+    font-weight: 500;
+    font-family: 'Libre Baskerville', serif;
+    position: relative;
+}
+.content h2::before{
+content: '';
+width:40px ;
+height:3px ;
+background-color: #ec661f;
+position: absolute;
+bottom:-6px;
+}
+.content p{
+    color: #333;
+    font-size: 16px;
+    font-family: 'Mulish', sans-serif;
+    line-height: 26px;
+    margin:25px 0 16px;
+    font-weight: 500;
+}
+.content ul li {
+position: relative;
+padding-left:0;
+margin-bottom: 10px;
+list-style: none;
+
+}
+.content ul li:before{
+    position: absolute;
+    left: -2rem;
+    top:-0.2rem;
+    content: "\2713";
+    color: #0fb78d;
+    font-size: 20px;
+    font-family: 'icomoon';
+}
+.content ul{
+    margin-bottom:3rem;
+}
+.content .counter span{
+    color: #0FB78D;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 26px;
+    line-height: 41.6px;
+    font-weight: 400;
+
+}
+.content .btn{
+    padding:15px 30px;
+    border-radius: 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: .05rem;
+}
+.content .btn.btn-primary{
+    background: #0fb78d;
+    border-color: #0fb78d;
+}
+.content .btn.btn-outline-primary {
+    border-color: #0fb78d;
+    color: #0fb78d;
+}
+.btn.btn-outline-primary:hover {
+    background-color: #0fb78d;
+    color: #ffffff;
+}
+.image{
+    position: relative;
+    width: 100%;
+    
+}
+.video-wrap .play-wrap > span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: #ffffff;
+    transform: translate(-50%, -50%);
+}
+
+.video-wrap .play-wrap {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 50px;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 50%;
+    transition: .3s all ease;
+}
+.icon-play:before {
+  
+    content: "\f144";
+    box-sizing: border-box;
+}
+
